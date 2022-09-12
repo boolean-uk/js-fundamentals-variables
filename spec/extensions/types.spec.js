@@ -26,7 +26,7 @@ describe('variable types', () => {
     expect(answers.imFalse).toBe(false)
   })
   it('imBigInt', () => {
-    expect(answers.imBigInt).toBe(1000000n)
+    expect(answers.imBigInt).toBe(10000000n)
   })
   it('imUndefined', () => {
     expect(answers.imUndefined).toBe(undefined)

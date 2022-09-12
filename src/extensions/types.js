@@ -10,7 +10,7 @@
 // An array of choices to pick answers from
 const CHOICES = [
   'Pick me!', // choose this with pick(0)
-  null,
+  null, // choose this with pick(1)
   undefined, // choose this with pick(2) etc ...
   -12,
   3.14,
@@ -27,7 +27,8 @@ const CHOICES = [
 
 // examples
 let pickMe = pick(0) // to pick the 1st answer use 0
-pickMe = pick(0) // to pick the 4th answer use 3 etc
+pickMe = pick(4) // to pick the 4th answer use 3 etc
+pickMe = pick(0) // Back to the correct sample answer
 
 function pick(n) {
   return CHOICES[n]
