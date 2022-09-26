@@ -18,8 +18,9 @@ const CHOICES = [
   'hey',
   [1, 2, 3],
   { i: 'object!' },
-  1 == 1, // HINT: Is this true or false?
-  3 == 4 // HINT: Is this true or false?
+  // eslint-disable-next-line no-self-compare
+  1 === 1, // HINT: Is this true or false?
+  3 === 4 // HINT: Is this true or false?
 ]
 
 // Use the following function to 'pick' an answer to the questions below
