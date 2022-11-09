@@ -39,7 +39,7 @@ const imTrue = pick(9)
 console.log(imTrue)
 
 // 2. Pick a real number
-const aReal = pick(3)
+const aReal = pick(4)
 console.log(aReal)
 
 // 3. Pick a string
@@ -55,19 +55,24 @@ const aNumber = pick(3)
 console.log(aNumber)
 
 // 6. Pick an object
-const anObject = pick(1)
+const anObject = pick(8)
+console.log(anObject)
 
 // 7. Pick false
-const imFalse = pick(0)
+const imFalse = pick(10)
+console.log(imFalse)
 
 // 8. Pick a BigInt
-const imBigInt = pick(1)
+const imBigInt = pick(5)
+console.log(imBigInt)
 
 // 9. Pick undefined
-const imUndefined = pick(0)
+const imUndefined = pick(2)
+console.log(imUndefined)
 
 // 10. Pick null
-const imNull = pick(0)
+const imNull = pick(1)
+console.log(imNull)
 
 // Do not edit below this line
 module.exports = {

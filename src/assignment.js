@@ -6,7 +6,6 @@ firstNumber = 0
 firstNumber = 20
 console.log(firstNumber)
 
-
 // TODO: 2. Change the code below so that the tests pass
 const secondNumber = 42 // edit this value
 console.log(secondNumber)
