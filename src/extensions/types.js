@@ -10,7 +10,7 @@
 // An array of choices to pick answers from
 const CHOICES = [
   'Pick me!', // choose this with pick(0)
-  null,
+  null, // choose this with pick(1)
   undefined, // choose this with pick(2) etc ...
   -12,
   3.14,
@@ -18,8 +18,12 @@ const CHOICES = [
   'hey',
   [1, 2, 3],
   { i: 'object!' },
+ main
   // eslint-disable-next-line no-self-compare
   1 > 1, // HINT: Is this true or false?
+=======
+  2 > 1, // HINT: Is this true or false?
+ main
   3 === 4 // HINT: Is this true or false?
 ]
 
@@ -28,7 +32,8 @@ const CHOICES = [
 
 // examples
 let pickMe = pick(0) // to pick the 1st answer use 0
-pickMe = pick(3) // to pick the 4th answer use 3 etc
+pickMe = pick(4) // to pick the 4th answer use 3 etc
+pickMe = pick(0) // Back to the correct sample answer
 
 function pick(n) {
   return CHOICES[n]
