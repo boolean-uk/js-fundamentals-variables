@@ -19,7 +19,7 @@ const CHOICES = [
   [1, 2, 3],
   { i: 'object!' },
   // eslint-disable-next-line no-self-compare
-  1 === 1, // HINT: Is this true or false?
+  1 > 1, // HINT: Is this true or false?
   3 === 4 // HINT: Is this true or false?
 ]
 
