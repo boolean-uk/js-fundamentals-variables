@@ -8,6 +8,8 @@ function sayByeee() {
   return 'Byeee, friend :)'
 }
 
+console.log(sayByeee)
+
 // 2. Define a function that doubles (multiplies by 2) a number
 // Input   | Output
 // 1       | 2
