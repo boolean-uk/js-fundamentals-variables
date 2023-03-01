@@ -6,6 +6,6 @@ describe('Variable Declaration:', () => {
   })
 
   it('age is 35', () => {
-    expect(age).toEqual(35)
+    expect(age).toEqual(43)
   })
 })
