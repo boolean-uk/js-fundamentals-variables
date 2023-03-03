@@ -8,6 +8,9 @@ function sayByeee() {
   return 'Byeee, friend :)'
 }
 
+var farewell = sayByeee
+console.log(sayByeee);
+
 // 2. Define a function that doubles (multiplies by 2) a number
 // Input   | Output
 // 1       | 2
@@ -16,6 +19,12 @@ function sayByeee() {
 function doubleNumber(num) {
   return num * 2
 }
+
+var doubledNum = doubleNumber(1)
+console.log(doubleNumber);
+
+var doubledNumber = doubleNumber(4)
+console.log(doubleNumber);
 
 // 1., 2. change the exported value to be the name of the function you defined
 module.exports = {
