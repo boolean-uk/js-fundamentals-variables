@@ -47,7 +47,7 @@ const aString = pick(6)
 const anArray = pick(7)
 
 // 5. Pick a (simple) number
-const aNumber = pick(0)
+const aNumber = pick(3)
 
 // 6. Pick an object
 const anObject = pick(8)
