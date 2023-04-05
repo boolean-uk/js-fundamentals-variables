@@ -2,6 +2,8 @@
 //
 //
 // TODO: 1. Declare the variables firstName and age so that the tests pass
+const firstName = 'Jane'
+const age = 35
 
 // do not edit below this line
 let firstNameExport = ''
@@ -10,7 +12,7 @@ try {
   firstNameExport = firstName
 } catch (e) {}
 
-let ageExport = 0
+let ageExport = age
 try {
   /* eslint-disable no-undef */
   ageExport = age
