@@ -9,3 +9,6 @@ describe('Variable Assignment:', () => {
     expect(b).toEqual(42)
   })
 })
+
+// stops a and b from being declared globally
+export {}

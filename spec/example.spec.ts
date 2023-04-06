@@ -1,4 +1,4 @@
-const example = require('../src/example.js')
+const example = require('../src/example.ts')
 
 describe('Variables example', () => {
   it('Variables Example', () => {
