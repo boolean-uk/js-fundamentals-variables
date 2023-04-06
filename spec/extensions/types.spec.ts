@@ -1,4 +1,4 @@
-const answers = require('../../src/extensions/types.js')
+const answers = require('../../src/extensions/types.ts')
 
 describe('variable types', () => {
   it('pickMe', () => {

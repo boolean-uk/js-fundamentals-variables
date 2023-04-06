@@ -13,3 +13,6 @@ describe('example functions', () => {
     expect(b(0)).toEqual(0)
   })
 })
+
+// stops a and b from being declared globally
+export {}
