@@ -37,22 +37,17 @@ function pick(n) {
 // 1. Pick true using the pick function - by changing 0 to pick your answer
 const imTrue = pick(9)
 
-
 // 2. Pick a real number
 const aReal = pick(4)
-console.log(aReal)
 
 // 3. Pick a string
-const aString = pick(0)
-
+const aString = pick(6)
 
 // 4. Pick an array
 const anArray = pick(7)
 
-
 // 5. Pick a (simple) number
 const aNumber = pick(3)
-
 
 // 6. Pick an object
 const anObject = pick(8)
