@@ -2,8 +2,8 @@
 //
 //
 // TODO: 1. Declare the variables firstName and age so that the tests pass
-const firstName = 'Jane'
-const age = 35
+let firstName = 'Jane';
+let age = 35;
 
 // do not edit below this line
 let firstNameExport = ''
@@ -23,4 +23,4 @@ module.exports = {
   age: ageExport
 }
 
-console.log(module.exports)
+console.log(module.exports);
