@@ -34,35 +34,80 @@ function pick(n) {
   return CHOICES[n]
 }
 
+
 // 1. Pick true using the pick function - by changing 0 to pick your answer
-const imTrue = pick(0)
+const imTrue = pick(9)
+
+function pick(n) {
+  return CHOICES[n]
+}
 
 // 2. Pick a real number
-const aReal = pick(0)
+const aReal = pick(4)
+
+function pick(n) {
+  return CHOICES[n]
+}
+
+// console.log(aReal)
 
 // 3. Pick a string
-const aString = pick(3)
+const aString = pick(6)
+
+function pick(n) {
+  return CHOICES[n]
+}
+
+//console.log(aString)
 
 // 4. Pick an array
-const anArray = pick(1)
+const anArray = pick(7)
+
+function pick(n) {
+  return CHOICES[n]
+}
 
 // 5. Pick a (simple) number
-const aNumber = pick(0)
+const aNumber = pick(3)
+
+function pick(n) {
+  return CHOICES[n]
+}
 
 // 6. Pick an object
-const anObject = pick(1)
+const anObject = pick(8)
+
+function pick(n) {
+  return CHOICES[n]
+}
 
 // 7. Pick false
-const imFalse = pick(0)
+const imFalse = pick(10)
+
+function pick(n) {
+  return CHOICES[n]
+}
 
 // 8. Pick a BigInt
-const imBigInt = pick(1)
+const imBigInt = pick(5)
+
+function pick(n) {
+  return CHOICES[n]
+}
 
 // 9. Pick undefined
-const imUndefined = pick(0)
+const imUndefined = pick(2)
+
+function pick(n) {
+  return CHOICES[n]
+}
 
 // 10. Pick null
-const imNull = pick(0)
+const imNull = pick(1)
+
+function pick(n) {
+  return CHOICES[n]
+}
 
 // Do not edit below this line
 module.exports = {
