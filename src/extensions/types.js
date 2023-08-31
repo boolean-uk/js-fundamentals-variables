@@ -50,19 +50,19 @@ const anArray = pick(7)
 const aNumber = pick(3)
 
 // 6. Pick an object
-const anObject = pick(1)
+const anObject = pick(8)
 
 // 7. Pick false
-const imFalse = pick(0)
+const imFalse = pick(10)
 
 // 8. Pick a BigInt
-const imBigInt = pick(1)
+const imBigInt = pick(5)
 
 // 9. Pick undefined
-const imUndefined = pick(0)
+const imUndefined = pick(2)
 
 // 10. Pick null
-const imNull = pick(0)
+const imNull = pick(1)
 
 // Do not edit below this line
 module.exports = {
