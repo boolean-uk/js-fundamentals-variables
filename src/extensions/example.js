@@ -4,7 +4,7 @@
 // Input | Output
 // - | "Byeee, friend :)"
 
-function sayByeee() {
+const sayByeee = () => {
   return 'Byeee, friend :)'
 }
 
@@ -13,7 +13,7 @@ function sayByeee() {
 // 1       | 2
 // 4       | 8
 
-function doubleNumber(num) {
+const doubleNumber = (num) => {
   return num * 2
 }
 
