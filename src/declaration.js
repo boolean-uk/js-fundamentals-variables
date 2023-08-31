@@ -5,8 +5,6 @@
 const firstName = 'Jane'
 const age = 35
 
-const
-
 // do not edit below this line
 let firstNameExport = ''
 try {
