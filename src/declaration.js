@@ -2,7 +2,8 @@
 //
 //
 // TODO: 1. Declare the variables firstName and age so that the tests pass
-
+ const firstName = 'Alice'
+ const age = 25
 // do not edit below this line
 let firstNameExport = ''
 try {
