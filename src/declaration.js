@@ -2,8 +2,8 @@
 //
 //
 // TODO: 1. Declare the variables firstName and age so that the tests pass
-const firstName = 'Koci'
-const age = 29
+const firstName = 'Jane'
+const age = 35
 
 // do not edit below this line
 let firstNameExport = ''
