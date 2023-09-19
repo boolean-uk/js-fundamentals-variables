@@ -1,4 +1,4 @@
-const { firstName, age } = require('../src/declaration.js')
+const  {firstName, age} = require('../src/declaration.js')
 
 describe('Variable Declaration:', () => {
   it('firstName is Jane', () => {
