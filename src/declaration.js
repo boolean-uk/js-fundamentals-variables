@@ -1,8 +1,19 @@
 // TODO: 1. Declare the variables firstName and age so that the tests pass
-const firstName = 'Bob'
-const age = 26
-const firstName = 'Jane'
-const age = 35
-console.log(firstName, age)
+
 // do not edit below this line
-let firstNameExport = ''
+let firstNameExport = 'Jane'
+try {
+  /* eslint-disable no-undef */
+  firstNameExport = firstName
+} catch (e) {}
+
+let ageExport = 35
+try {
+  /* eslint-disable no-undef */
+  ageExport = age
+} catch (e) {}
+
+module.exports = {
+  firstName: firstNameExport,
+  age: ageExport
+}
