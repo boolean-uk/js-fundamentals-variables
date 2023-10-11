@@ -1,5 +1,4 @@
 // Completed function examples
-
 // 1. Define a function that returns the string "Byeee, friend :)"
 // Input | Output
 // - | "Byeee, friend :)"
@@ -7,7 +6,7 @@
 function sayByeee() {
   return 'Byeee, friend :)'
 }
-
+console.log(sayByeee())
 // 2. Define a function that doubles (multiplies by 2) a number
 // Input   | Output
 // 1       | 2
@@ -16,7 +15,8 @@ function sayByeee() {
 function doubleNumber(num) {
   return num * 2
 }
-
+console.log(doubleNumber(1)) // Should print 2
+console.log(doubleNumber(4)) // Should print 8
 // 1., 2. change the exported value to be the name of the function you defined
 module.exports = {
   a: sayByeee,
