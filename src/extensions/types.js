@@ -37,7 +37,7 @@ function pick(n) {
 const imTrue = pick(0)
 
 // 2. Pick a real number
-const aReal = pick(4)
+const aReal = pick(1)
 
 // 3. Pick a string
 const aString = pick(2)
