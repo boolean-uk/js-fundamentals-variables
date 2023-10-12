@@ -7,19 +7,19 @@ const age = 10
 const firstName = 'Jane'
 // TODO: 1. Declare the variables firstName and age so that the tests pass
 // do not edit below this line
-let firstNameExport = ''
-let firstNameExport = 'Jane'
+firstNameExport = ''
+firstNameExport = 'Jane'
 try {
   /* eslint-disable no-undef */
   firstNameExport = firstName
 } catch (e) {}
 
-let ageExport = 0
-let ageExport = 35
+ageExport = 0
+ageExport = 35
 try {
   /* eslint-disable no-undef */
   ageExport = age
-}
+} catch (e) {}
 module.exports = {
   firstName: firstNameExport,
   age: ageExport
