@@ -46,22 +46,22 @@ const aString = pick(2)
 const anArray = pick(7)
 
 // 5. Pick a (simple) number
-const aNumber = pick(1)
+const aNumber = pick(4)
 
 // 6. Pick an object
-const anObject = pick(8)
+const anObject = pick(5)
 
 // 7. Pick false
-const imFalse = pick(9)
+const imFalse = pick(8)
 
 // 8. Pick a BigInt
-const imBigInt = pick(5)
+const imBigInt = pick(7)
 
 // 9. Pick undefined
-const imUndefined = pick(2)
+const imUndefined = pick(8)
 
 // 10. Pick null
-const imNull = pick(1)
+const imNull = pick(9)
 
 // Do not edit below this line
 module.exports = {
