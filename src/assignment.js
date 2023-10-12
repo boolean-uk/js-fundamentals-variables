@@ -6,9 +6,9 @@ firstNumber = 0;
 firstNumber = 20;
 
 // TODO: 2. Change the code below so that the tests pass
-const secondNumber = 0; // edit this value
+secondNumber = 0; // edit this value
 // Change the value of secondNumber here
-const secondNumber = 42;
+secondNumber = 42;
 
 // Do not edit the exported object.
 module.exports = {
