@@ -16,7 +16,7 @@ In this exercise you will learn how to declare and use Javascript variables
 - Fork this repository and clone your forked version to your machine
 - Install dependencies by running the command below while in the project's root directory:
 
-  `npm ci`
+  `npm i`
 
 ## Instructions
 
