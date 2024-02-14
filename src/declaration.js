@@ -1,5 +1,6 @@
 //
-//
+const firstName = 'Jane'
+const age = 35
 //
 // TODO: 1. Declare the variables firstName and age so that the tests pass
 
