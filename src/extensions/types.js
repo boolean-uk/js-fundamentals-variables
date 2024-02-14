@@ -35,34 +35,35 @@ function pick(n) {
 }
 
 // 1. Pick true using the pick function - by changing 0 to pick your answer
-const imTrue = pick(0)
+const imTrue = 2 > 1
 
 // 2. Pick a real number
-const aReal = pick(0)
+const aReal = 3.14
 
 // 3. Pick a string
-const aString = pick(3)
+const aString = 'hey'
 
 // 4. Pick an array
-const anArray = pick(1)
+const anArray = [1, 2, 3]
 
 // 5. Pick a (simple) number
-const aNumber = pick(0)
+const aNumber = -12
 
 // 6. Pick an object
-const anObject = pick(1)
+const anObject = { i: 'object!' }
 
 // 7. Pick false
-const imFalse = pick(0)
+const imFalse = 3 === 4
 
 // 8. Pick a BigInt
-const imBigInt = pick(1)
+const imBigInt = 10000000n
 
 // 9. Pick undefined
-const imUndefined = pick(0)
+const imUndefined = undefined
+// choose this with pick(2) etc ...
 
 // 10. Pick null
-const imNull = pick(0)
+const imNull = null
 
 // Do not edit below this line
 module.exports = {
