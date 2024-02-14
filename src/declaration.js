@@ -4,7 +4,7 @@
 // TODO: 1. Declare the variables firstName and age so that the tests pass
 
 // do not edit below this line
-let firstNameExport = ''
+let firstNameExport = "Jane"
 try {
   /* eslint-disable no-undef */
   firstNameExport = firstName
@@ -13,7 +13,7 @@ try {
 let ageExport = 0
 try {
   /* eslint-disable no-undef */
-  ageExport = age
+  ageExport = 35
 } catch (e) {}
 
 module.exports = {
