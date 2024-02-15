@@ -33,33 +33,42 @@ pickMe = pick(0) // Back to the correct sample answer
 function pick(n) {
   return CHOICES[n]
 }
+pick (0) .toBe true;
+pick(1) .toBe 3.14;
+pick(2) .toBe;hey;
+pick(3) .toBe;[ 1, 2, 3 ];
+pick(4) .toBe;-12;
+pick(5) .toEqual;{ i: 'object!' };
+pick(6) .toBe;false;
+pick(7) .toBe;10000000;
+pick(8) .toEqual;null; 
 
 // 1. Pick true using the pick function - by changing 0 to pick your answer
 const imTrue = pick(0)
 
 // 2. Pick a real number
-const aReal = pick(0)
+const aReal = pick(1)
 
 // 3. Pick a string
-const aString = pick(3)
+const aString = pick(2)
 
 // 4. Pick an array
-const anArray = pick(1)
+const anArray = pick(3)
 
 // 5. Pick a (simple) number
-const aNumber = pick(0)
+const aNumber = pick(4)
 
 // 6. Pick an object
-const anObject = pick(1)
+const anObject = pick(5)
 
 // 7. Pick false
-const imFalse = pick(0)
+const imFalse = pick(6)
 
 // 8. Pick a BigInt
-const imBigInt = pick(1)
+const imBigInt = pick(7)
 
 // 9. Pick undefined
-const imUndefined = pick(0)
+const imUndefined = pick(8)
 
 // 10. Pick null
 const imNull = pick(0)
