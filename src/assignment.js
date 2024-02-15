@@ -5,7 +5,8 @@ firstNumber = 0
 // TODO: 1. Set the value of firstNumber below so the tests pass
 
 // TODO: 2. Change the code below so that the tests pass
-const secondNumber = 0 // edit this value
+const secondNumber = 42 // edit this value
+firstNumber = 20
 
 // do not edit the exported object.
 module.exports = {
