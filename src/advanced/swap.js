@@ -5,6 +5,7 @@ let b = 10
 
 module.exports = { a, b }[(a, (b = b), a)]
 
-a=a+b; // a=5+10=15, a=15
-b=a-b; // b=15-10, b=5
-a=a-b; // a=15-5=10, a=10
++ a = a + b
++ b = a - b
++ a = a - b
++
