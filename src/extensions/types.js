@@ -33,15 +33,6 @@ pickMe = pick(0) // Back to the correct sample answer
 function pick(n) {
   return CHOICES[n]
 }
-pick (0) .toBe true;
-pick(1) .toBe 3.14;
-pick(2) .toBe;hey;
-pick(3) .toBe;[ 1, 2, 3 ];
-pick(4) .toBe;-12;
-pick(5) .toEqual;{ i: 'object!' };
-pick(6) .toBe;false;
-pick(7) .toBe;10000000;
-pick(8) .toEqual;null; 
 
 // 1. Pick true using the pick function - by changing 0 to pick your answer
 const imTrue = pick(0)
