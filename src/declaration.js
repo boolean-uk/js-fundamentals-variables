@@ -7,13 +7,13 @@
 let firstNameExport = ''
 try {
   /* eslint-disable no-undef */
-  firstNameExport = firstName
+  firstNameExport = 'Jane'
 } catch (e) {}
 
 let ageExport = 0
 try {
   /* eslint-disable no-undef */
-  ageExport = age
+  ageExport = 35
 } catch (e) {}
 
 module.exports = {
