@@ -38,7 +38,7 @@ function pick(n) {
 const imTrue = pick(9)
 
 // 2. Pick a real number
-const aReal = pick(3)
+const aReal = pick(4)
 
 // 3. Pick a string
 const aString = pick(6)
@@ -47,7 +47,7 @@ const aString = pick(6)
 const anArray = pick(7)
 
 // 5. Pick a (simple) number
-const aNumber = pick(4)
+const aNumber = pick(3)
 
 // 6. Pick an object
 const anObject = pick(8)
@@ -56,7 +56,7 @@ const anObject = pick(8)
 const imFalse = pick(10)
 
 // 8. Pick a BigInt
-const imBigInt = pick(6)
+const imBigInt = pick(5)
 
 // 9. Pick undefined
 const imUndefined = pick(2)
