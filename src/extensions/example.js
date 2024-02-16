@@ -5,7 +5,7 @@
 // - | "Byeee, friend :)"
 
 function sayByeee() {
-  return 'Byeee, friend :)'
+  return 'Byeee, friend :)';
 }
 
 // 2. Define a function that doubles (multiplies by 2) a number
@@ -14,11 +14,11 @@ function sayByeee() {
 // 4       | 8
 
 function doubleNumber(num) {
-  return num * 2
+  return num * 2;
 }
 
 // 1., 2. change the exported value to be the name of the function you defined
 module.exports = {
   a: sayByeee,
   b: doubleNumber
-}
+};
