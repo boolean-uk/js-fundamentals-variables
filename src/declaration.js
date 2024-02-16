@@ -2,6 +2,10 @@
 //
 //
 // TODO: 1. Declare the variables firstName and age so that the tests pass
+let firstName = 'Jane'
+console.log(firstName)
+let age = 35 
+console.log(age)
 
 // do not edit below this line
 let firstNameExport = ''
