@@ -41,7 +41,7 @@ const imTrue = pick(9)
 const aReal = pick(4)
 
 // 3. Pick a string
-const aString = pick(0)
+const aString = pick(6)
 
 // 4. Pick an array
 const anArray = pick(7)
