@@ -16,7 +16,8 @@ try {
   /* eslint-disable no-undef */
   ageExport = age
 } catch (e) {}
-
+console.log(firstNameExport)
+console.log(ageExport)
 module.exports = {
   firstName: firstNameExport,
   age: ageExport
