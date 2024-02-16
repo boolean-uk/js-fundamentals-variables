@@ -35,34 +35,34 @@ function pick(n) {
 }
 
 // 1. Pick true using the pick function - by changing 0 to pick your answer
-const imTrue = pick(0)
+const imTrue = pick(CHOICES.findIndex(choice => choice == true))
 
 // 2. Pick a real number
-const aReal = pick(0)
+const aReal = pick(CHOICES.findIndex(choice => typeof choice === 'number' && Number.isFinite(choice) && choice != -12))
 
 // 3. Pick a string
-const aString = pick(3)
+const aString = pick(CHOICES.findIndex(choice => typeof choice === 'string' && choice != "Pick me!"))
 
 // 4. Pick an array
-const anArray = pick(1)
+const anArray = pick(CHOICES.findIndex(choice => Array.isArray(choice)))
 
 // 5. Pick a (simple) number
-const aNumber = pick(0)
+const aNumber = pick(CHOICES.findIndex(choice => typeof choice === 'number'))
 
 // 6. Pick an object
-const anObject = pick(1)
+const anObject = pick(CHOICES.findIndex(choice => typeof choice === 'object' && !Array.isArray(choice) && choice != null))
 
 // 7. Pick false
-const imFalse = pick(0)
+const imFalse = pick(CHOICES.findIndex(choice => choice == false))
 
 // 8. Pick a BigInt
-const imBigInt = pick(1)
+const imBigInt = pick(CHOICES.findIndex(choice => choice > 99))
 
 // 9. Pick undefined
-const imUndefined = pick(0)
+const imUndefined = pick(CHOICES.findIndex(choice => choice === undefined))
 
 // 10. Pick null
-const imNull = pick(0)
+const imNull = pick(CHOICES.findIndex(choice => choice == null))
 
 // Do not edit below this line
 module.exports = {
