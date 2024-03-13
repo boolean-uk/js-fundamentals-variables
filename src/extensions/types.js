@@ -12,7 +12,7 @@ const CHOICES = [
   'Pick me!', // choose this with pick(0)
   null, // choose this with pick(1)
   undefined, // choose this with pick(2) etc ...
-  -12,
+  'hey',
   3.14,
   10000000n,
   'hey',
